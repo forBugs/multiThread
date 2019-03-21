@@ -14,6 +14,8 @@ public class TicketWindow extends Thread {
     public void run() {
         while (index <= MAX) {
             System.out.println("柜台：" + name + "当前号码是：" + (index++));
+
+
         }
     }
 }
