@@ -3,7 +3,7 @@ package com.buct.currencybeauty.chapter01;
 /**
  * @Auther: fb
  * @Date: 2019/4/19 16:18
- * @Description:
+ * @Description: ThreadLocal使用示例
  */
 public class ThreadLocalTest {
 
@@ -29,5 +29,7 @@ public class ThreadLocalTest {
             System.out.println(threadLocal.get());
 
         },"threadTwo").start();
+
+
     }
 }
